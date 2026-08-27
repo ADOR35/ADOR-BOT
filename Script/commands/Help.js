@@ -6,7 +6,7 @@ module.exports.config = {
     name: "help",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "ADOR BOT",
+    credits: "TANBIR BOT",
     description: "Shows all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: ADOR BOT
+┃ 👑 Owner: TANBIR BOT
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -144,7 +144,7 @@ ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
 ┃ 🤖 Bot Name: ${global.config.BOTNAME || "ADOR  𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: ADOR 𝐒𝐀𝐇𝐔
+┃ 👑 Owner: TANBIR 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
