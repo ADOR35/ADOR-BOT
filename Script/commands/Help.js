@@ -3,11 +3,11 @@ const request = require("request");
 const path = require("path");
 
 module.exports.config = {
-    name: "help",
+    name: "helpp",
     version: "2.0.0",
     hasPermssion: 0,
     credits: "TANBIR BOT",
-    description: "Shows all commands with details",
+    description: "TANBIR all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
     cooldowns: 5,
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "ADOR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "TANBIR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
     );  
 
     downloadImages(files => {  
@@ -110,7 +110,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "ADOR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+            global.config.BOTNAME || "TANBIR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
         );  
 
         downloadImages(files => {  
@@ -143,7 +143,7 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "ADOR  𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "TANBIR 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
 ┃ 👑 Owner: TANBIR 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 
