@@ -75,7 +75,7 @@ try {
     break;  
         }  
         case "log:thread-color": {  
-        	dataThread.threadColor = event.logMessageData.thread_color || "🌤";  
+        	dataThread.threadColor = event.logMessageData.thread_color || "😒";  
             if (global.configModule[this.config.name].sendNoti) api.sendMessage(`» [ GROUP UPDATE ]\n» ${event.logMessageBody.replace("Theme", "color")}`, threadID, async (error, info) => {  
                 if (global.configModule[this.config.name].autoUnsend) {  
                     await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));  
@@ -98,7 +98,7 @@ try {
         }  
 
         case "log:thread-name": {  
-            dataThread.threadName = event.logMessageData.name || "No name";  
+            dataThread.threadName = event.logMessageData.name || "@Tanbir Hossain ";  
             if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update the group name to ${dataThread.threadName}`, threadID, async (error, info) => {  
                 if (global.configModule[this.config.name].autoUnsend) {  
                     await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));  
