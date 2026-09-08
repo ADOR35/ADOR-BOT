@@ -63,7 +63,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
     const { commands } = global.client;
     const { threadID, messageID, body } = event;
 
-    if (!body || typeof body === "undefined" || body.indexOf("help") != 0) return;  
+    if (!body || typeof body === "undefined" || body.indexOf("helpp") != 0) return;  
     const splitBody = body.slice(body.indexOf("help")).trim().split(/\s+/);  
     if (splitBody.length < 2 || !commands.has(splitBody[1].toLowerCase())) return;  
 
