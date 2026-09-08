@@ -1,5 +1,5 @@
 {
-  "name": "shahadat-chat-bot",
+  "name": "TANBIR-chat-bot",
   "version": "2.0.1",
   "description": "Made By TANBIR ",
   "main": "Main.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shahadat-sahu/TANBIR-CHAT-BOT.git"
+    "url": "https://github.com/TANBIR-sahu/TANBIR-CHAT-BOT.git"
   },
   "keywords": [
     "bot",
@@ -29,9 +29,9 @@
   ],
   "author": "bot  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues"
+    "url": "https://github.com/TANBIR-sahu/SHAHADAT-CHAT-BOT/issues"
   },
-  "homepage": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues",
+  "homepage": "https://github.com/TANBIR-sahu/SHAHADAT-CHAT-BOT/issues",
   "dependencies": {
     "@distube/ytdl-core": "^4.13.2",
     "@miraipr0ject/assets": "^1.0.9",
